@@ -19,16 +19,20 @@
         }
 
         .score .first {
-          border-left: 2px solid #333;
+          border-left: 4px solid #333;
         }
 
         .score td:last-of-type {
-          border-right: 2px solid #333;
+          border-right: 4px solid #333;
+        }
+
+        .score .pulse {
+          border-left: 2px solid #999;
         }
 
         .score {
-          border-top: 2px solid #333;
-          border-bottom: 2px solid #333;
+          border-top: 4px solid #333;
+          border-bottom: 4px solid #333;
         }
       </style>
     </head>
@@ -112,6 +116,87 @@
                 <td>d</td>
                 <td>g</td>
                 <td>d</td>
+                <td>g</td>
+                <td>d</td>
+
+              </tr>
+            </table>
+          </div>
+
+          <div class="col-md-12">
+            <table class="score">
+              <caption>Exercice 3</caption>
+              <tr>
+                <td class="first">1</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td class="pulse">2</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td class="pulse">3</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td class="pulse">4</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+
+              </tr>
+              <tr class="stroke">
+                <td class="first">B</td>
+                <td> </td>
+                <td>T</td>
+                <td> </td>
+                <td class="pulse">B</td>
+                <td> </td>
+                <td>T</td>
+                <td>O</td>
+                <td class="pulse">B</td>
+                <td> </td>
+                <td>T</td>
+                <td>X</td>
+                <td class="pulse">B</td>
+                <td> </td>
+                <td>T</td>
+                <td>O</td>
+              </tr>
+
+              <tr class="stroke">
+                <td class="first"> </td>
+                <td> </td>
+                <td> </td>
+                <td>O</td>
+                <td class="pulse"> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td class="pulse"> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td class="pulse"> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td class="first">g</td>
+                <td> </td>
+                <td>g</td>
+                <td>d</td>
+                <td class="pulse">g</td>
+                <td> </td>
+                <td>g</td>
+                <td>d</td>
+                <td class="pulse">g</td>
+                <td> </td>
+                <td>g</td>
+                <td>d</td>
+                <td class="pulse">g</td>
+                <td> </td>
                 <td>g</td>
                 <td>d</td>
 
